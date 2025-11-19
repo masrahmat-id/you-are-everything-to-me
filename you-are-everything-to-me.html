@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Are Everything To Me</title>
+
+    <meta name="description" content="[ 16.06 ]">
+    <link rel="icon" type="image/gif" href="https://i.ibb.co/VDQLvp6/original.gif">
+    <meta name="theme-color" content="black">
+
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Ranga|Mali:400i,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+    <style>
+        /* Perbaikan CSS Body */
+        body { 
+            padding: 0; 
+            margin: 0; 
+            height: 100vh;
+            width: 100%; 
+            /* Memisahkan background url dan background size/position/attachment */
+            background-image: url("https://1.bp.blogspot.com/-Tk57OKcT6FY/YMMsNk371fI/AAAAAAAAEJs/D9_w05VqdRElC6NPlmBJrQBzE0ik2AsvQCLcBGAsYHQ/s1247/Mas_Rahmat.jpg");
+            background-size: cover; 
+            background-attachment: fixed;
+            background-position: center;
+            overflow: hidden; 
+            font-family: 'Mali', sans-serif; /* Default font */
+        }
+
+        .bg { 
+            position: absolute; 
+            left: 0; 
+            right: 0; 
+            top: 0; 
+            bottom: 0; 
+            background: rgba(96, 90, 82, 0.37); /* Overlay gelap/transparan */
+        }
+
+        /* Styling Konten Utama */
+        .box { 
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 80%;
+            max-width: 500px; /* Batasan lebar agar konten tidak terlalu lebar */
+            color: #fff; 
+        }
+
+        .mek { 
+            background-color: rgba(0,0,0,0.7); /* Background transparan untuk box */
+            padding: 20px;
+            border-radius: 10px; /* Opsional: membuat sudut lebih lembut */
+        }
+
+        h1 { 
+            font-size: 50px; 
+            letter-spacing: 2px;
+            font-family: 'Ranga', cursive; 
+        }
+
+        h2 { 
+            font-size: 30px;
+            letter-spacing: 0px;
+            font-family: 'Mali', cursive;
+        }
+
+        h3 { 
+            font-size: 20px;
+            letter-spacing: 0px;
+            font-family: 'Mali', cursive; 
+            margin-top: 15px;
+        }
+
+        h5 { 
+            font-family: "Mali", cursive; 
+            margin-bottom: 0 !important;
+        }
+
+        p { 
+            font-size: 20px;
+            letter-spacing: 2px;
+            font-family: 'Merienda', cursive; 
+        }
+
+        button { 
+            display: block;
+            background-color: #191919;
+            width: 90%;
+            max-width: 250px;
+            margin: auto;
+            margin-top: 20px; /* Mengurangi jarak atas */
+            padding:15px 10px; /* Padding yang lebih bersih */
+            border-radius: 25px;
+            font-family:'Merienda', cursive; /* Mengganti font yang tidak ada ('Sriracha') */
+            font-size: 1em;
+            color: #FFFFFF;
+            font-weight: 700;
+            border-bottom: 5px outset #222222;
+            cursor: pointer;
+        }
+
+        /* Styling Tautan */
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a { 
+            text-decoration: none; 
+            color: #fff; 
+            padding: 0 10px; /* Mengurangi padding ikon */
+            display: inline-block;
+            font-size: 30px;
+        }
+        .social-icons a:hover { 
+            color: #ccc; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div> 
+    
+    <iframe width="0" height="0" scrolling="no" frameborder="no" loop="true" allow="autoplay" src="link_lagu_autoplay_disini"></iframe>
+    
+    <div class="box">
+        <div class="mek">
+            <br>
+            <h1><b></b></h1>
+            <h2>"You Are Everything To Me"</h2>
+            <br>
+            <h5 class="text-center text-white mb-3">
+                Rahmat : 
+                <marquee width="100%" scrollamount="8" direction="left">
+                    " Mencintai merupakan sebuah anugerah besar yang Tuhan berikan kepada manusia. Maka dari itu, kita perlu senantiasa bersyukur dan menjaga segala anugerah itu. "
+                </marquee>
+            </h5>
+            <hr style="background-color: white;">
+            
+            <h3><b>Contact Rahmat.Ofc@gmail.com</b></h3>
+
+            <button onclick="play();">Play Music</button>
+            <audio id="audios" 
+                src="https://docs.google.com/uc?export=download&id=1CoF3Ed0Vf-QNAA0HpGVA3jw_k9mVPkY3" 
+                controls 
+                crossorigin="anonymous"
+                style="display: none;"></audio> <p></p>
+            
+            <div class="social-icons">
+                <a href="http://fb.com/rahmat.ofc" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="GitHub"><i class="fa fa-github"></i></a>
+                <a href="#" title="YouTube"><i class="fa fa-youtube"></i></a>
+                <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+            </div>
+            
+            <button onclick="window.location.reload(true);" style="margin-top: 15px;">Reload Page</button>
+        </div>
+    </div>
+    
+    <script>
+        function play(){ 
+            var audio = document.getElementById("audios"); 
+            // Pastikan audios player disembunyikan dan hanya dipicu oleh tombol
+            audio.style.display = 'block'; 
+            audio.play();
+        } 
+        
+        // Fungsi showImage() telah dihapus karena tidak ada elemen 'loadingImage'
+    </script>
+</body>
+</html>
